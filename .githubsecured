@@ -1,0 +1,12 @@
+// A variable holds a value that can change
+const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY; // changes per environment
+let userMessage = "Hello ARIA";                           // changes per user input
+const model = "claude-sonnet-4-6";                        // can be swapped out
+git init
+git add .
+git commit -m "SecureID Vault — initial deploy"
+git remote add origin https://github.com/yourusername/secureid-vault.git
+git push -u origin main
+npm install -g vercel
+vercel login
+vercel9vercel --prod
